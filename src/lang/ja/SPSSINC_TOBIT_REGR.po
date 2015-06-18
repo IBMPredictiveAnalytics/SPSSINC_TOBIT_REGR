@@ -1,0 +1,113 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_TOBIT_REGR.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: SPSSINC_TOBIT_REGR.R:89
+#: SPSSINC_TOBIT_REGR.R:94
+msgid "None"
+msgstr ""
+"なし"
+
+#: SPSSINC_TOBIT_REGR.R:97
+msgid " Lower bound: %s, Upper bound: %s"
+msgstr ""
+"下限: %s、上限:  %s"
+
+#: SPSSINC_TOBIT_REGR.R:101
+msgid "ERROR:"
+msgstr ""
+"誤差"
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Scale: "
+msgstr ""
+"尺度: "
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Residual d.f.: "
+msgstr ""
+"残差自由度:"
+
+#: SPSSINC_TOBIT_REGR.R:112
+msgid "Log likelihood: "
+msgstr ""
+"対数尤度:"
+
+#: SPSSINC_TOBIT_REGR.R:112
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "  D.f.: "
+msgstr ""
+"自由度:"
+
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "Wald statistic: "
+msgstr ""
+"Wald 統計:"
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Coefficient"
+msgstr ""
+"係数"
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Std. Error"
+msgstr ""
+"標準誤差"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "z Value"
+msgstr ""
+"Z 値"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "Sig."
+msgstr ""
+"有意確率"
+
+#: SPSSINC_TOBIT_REGR.R:124
+msgid "Tobit Regression"
+msgstr ""
+"Tobit 回帰"
+
+#: SPSSINC_TOBIT_REGR.R:126
+msgid "Coefficients"
+msgstr ""
+"係数"
+
+#: SPSSINC_TOBIT_REGR.R:132
+msgid "Variable or Factor Value"
+msgstr ""
+"ファクタ値の変数"
+
+#: SPSSINC_TOBIT_REGR.R:133
+msgid "Estimated Coefficient"
+msgstr ""
+"推定係数"
+
+#: SPSSINC_TOBIT_REGR.R:139
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"係数データセットを作成できませんでした。  データセット名は事前に存在してはいけません。"
+
+
