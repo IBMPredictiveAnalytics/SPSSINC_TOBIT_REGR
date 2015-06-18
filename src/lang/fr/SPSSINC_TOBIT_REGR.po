@@ -1,0 +1,113 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_TOBIT_REGR.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Le pack R %s est requis mais n'a pas pu être chargé."
+
+#: SPSSINC_TOBIT_REGR.R:89
+#: SPSSINC_TOBIT_REGR.R:94
+msgid "None"
+msgstr ""
+"Aucune"
+
+#: SPSSINC_TOBIT_REGR.R:97
+msgid " Lower bound: %s, Upper bound: %s"
+msgstr ""
+" Borne inférieure : %s, Borne supérieure : %s"
+
+#: SPSSINC_TOBIT_REGR.R:101
+msgid "ERROR:"
+msgstr ""
+"ERREUR :"
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Scale: "
+msgstr ""
+"Echelle : "
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Residual d.f.: "
+msgstr ""
+"D.f. résiduelle : "
+
+#: SPSSINC_TOBIT_REGR.R:112
+msgid "Log likelihood: "
+msgstr ""
+"Log-vraisemblance : "
+
+#: SPSSINC_TOBIT_REGR.R:112
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "  D.f.: "
+msgstr ""
+"  D.f. : "
+
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "Wald statistic: "
+msgstr ""
+"Statistiques de Wald : "
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Coefficient"
+msgstr ""
+"Coefficient"
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Std. Error"
+msgstr ""
+"Erreur std."
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "z Value"
+msgstr ""
+"Valeur z"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "Sig."
+msgstr ""
+"Sig."
+
+#: SPSSINC_TOBIT_REGR.R:124
+msgid "Tobit Regression"
+msgstr ""
+"Régression Tobit"
+
+#: SPSSINC_TOBIT_REGR.R:126
+msgid "Coefficients"
+msgstr ""
+"Coefficients"
+
+#: SPSSINC_TOBIT_REGR.R:132
+msgid "Variable or Factor Value"
+msgstr ""
+"Valeur de variable ou de facteur"
+
+#: SPSSINC_TOBIT_REGR.R:133
+msgid "Estimated Coefficient"
+msgstr ""
+"Coefficient estimé"
+
+#: SPSSINC_TOBIT_REGR.R:139
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"Impossible de créer un jeu de données des coefficients. Le nom du jeu de données ne doit pas déjà exister : "
+
+
