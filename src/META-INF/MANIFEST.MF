@@ -1,0 +1,22 @@
+Name: SPSSINC TOBIT REGR
+Dialog-Specs: SPSSINC_TOBIT_REGR.spd
+Command-Specs: SPSSINC_TOBIT_REGR.xml
+Code-Files: SPSSINC_TOBIT_REGR.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Estimate a regression model whose dependent variable has a fi
+ xed lower bound, upper bound, or both.
+Description: This procedure estimates a regression model where the dep
+ endent variable has a fixed lower bound, upper bound, or both. It can
+  be thought of as a combination of a probit model with a linear regre
+ ssion model. You can specify the distribution assumed for the depende
+ nt variable, and you can save the residuals from the regression as we
+ ll as the estimated coefficients. The procedure uses the tobit functi
+ on from the R AER package.
+Author: IBM SPSS
+Version: 1.2.7
+Product-Version: 18
+Date: 1/2/2014
+Categories: Extension Commands, R, Statistics
+Plugins: R
+R-Packages: AER,lmtest
+Translation-Catalogues: lang
