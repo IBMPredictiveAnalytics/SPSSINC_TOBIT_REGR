@@ -1,0 +1,113 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_TOBIT_REGR.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"需要 R %s 程序包，但未能将其装入。"
+
+#: SPSSINC_TOBIT_REGR.R:89
+#: SPSSINC_TOBIT_REGR.R:94
+msgid "None"
+msgstr ""
+"无"
+
+#: SPSSINC_TOBIT_REGR.R:97
+msgid " Lower bound: %s, Upper bound: %s"
+msgstr ""
+" 下限：%s，上限：%s"
+
+#: SPSSINC_TOBIT_REGR.R:101
+msgid "ERROR:"
+msgstr ""
+"错误："
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Scale: "
+msgstr ""
+"标度："
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Residual d.f.: "
+msgstr ""
+"残差自由度："
+
+#: SPSSINC_TOBIT_REGR.R:112
+msgid "Log likelihood: "
+msgstr ""
+"对数似然："
+
+#: SPSSINC_TOBIT_REGR.R:112
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "  D.f.: "
+msgstr ""
+"  自由度："
+
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "Wald statistic: "
+msgstr ""
+"瓦尔德统计："
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Coefficient"
+msgstr ""
+"系数"
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Std. Error"
+msgstr ""
+"标准误差"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "z Value"
+msgstr ""
+"z 值"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "Sig."
+msgstr ""
+"显著性"
+
+#: SPSSINC_TOBIT_REGR.R:124
+msgid "Tobit Regression"
+msgstr ""
+"Tobit 回归"
+
+#: SPSSINC_TOBIT_REGR.R:126
+msgid "Coefficients"
+msgstr ""
+"系数"
+
+#: SPSSINC_TOBIT_REGR.R:132
+msgid "Variable or Factor Value"
+msgstr ""
+"变量或因子值"
+
+#: SPSSINC_TOBIT_REGR.R:133
+msgid "Estimated Coefficient"
+msgstr ""
+"估算系数"
+
+#: SPSSINC_TOBIT_REGR.R:139
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"创建系数数据集失败。数据集名称不得已存在："
+
+
