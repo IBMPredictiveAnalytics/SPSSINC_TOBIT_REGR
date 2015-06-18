@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>SPSSINC TOBIT REGR Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>SPSSINC TOBIT REGR Extension Command</h1>
+
+<p>Calculate a Tobit regression model</p>
+<div class="syntax">
+<p>SPSSINC TOBIT REGR DEPENDENT=<em>dependent variable</em><sup>&#42;</sup><br/>
+ENTER=independent variables<sup>&#42;</sup> 
+DISTRIBUTION=GAUSSIAN<sup>&#42;&#42;</sup> or EXPONENTIAL or LOGISTIC
+or LOGNORMAL or WEIBULL or LOGLOGISTIC<br/>
+LOWERBOUND=<em>number</em>
+UPPERBOUND=<em>number</em></p>
+
+<p>/OPTIONS MISSING=LISTWISE<sup>&#42;&#42;</sup> or FAIL
+EXECUTE=TRUE<sup>&#42;&#42;</sup> or FALSE</p>
+
+<p>/SAVE COEFSDATASET=<em>datasetname</em> PROGRAMFILE=&ldquo;filespec*&rdquo;</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;</sup> Default</p>
+</div>
+<p>SPSSINC TOBIT REGR /HELP prints this information and does nothing else.</p>
+
+<pre class="example"><code>SPSSINC TOBIT REGR DEPENDENT=mpg ENTER=engine weight
+LOWERBOUND=0.
+</code></pre>
+
+<p>Split files and weight are not honored by this command.</p>
+
+<p><strong>DEPENDENT</strong> and <strong>ENTER</strong> specify the dependent and independent
+variable names.
+Categorical independent variables are automatically converted
+appropriately to factors.  A constant term is automatically included.</p>
+
+<p><strong>LOWERBOUND</strong> and/or <strong>UPPERBOUND</strong> specify the lower and/or
+upper limits for the dependent variable.  If neither is used, there
+are no limits applied, and the method amounts to ordinary regression.</p>
+
+<p><strong>DISTRIBUTION</strong> specifies the error distribution.  The choices are</p>
+
+<ul>
+<li>GAUSSIAN</li>
+<li>EXPONENTIAL</li>
+<li>LOGISTIC</li>
+<li>LOGNORMAL</li>
+<li>WEIBULL</li>
+<li>LOGLOGISTIC</li>
+</ul>
+
+<h2>OPTIONS</h2>
+
+<p><strong>MISSING</strong>=LISTWISE causes listwise deletion of missing values.<br/>
+FAIL stops the procedure if missing values are encountered.</p>
+
+<p><strong>EXECUTE</strong>=FALSE runs the command syntax without running the Tobit regression.<br/>
+This is mainly useful in combination with SAVE PROGRAMFILE.</p>
+
+<h2>SAVE</h2>
+
+<p><strong>COEFSDATASET</strong> causes a dataset containing the coefficients and the 
+error scale parameter to be created.  The dataset name must not already
+be in use.</p>
+
+<p><strong>PROGRAMFILE</strong> causes the R code that implements the tobit regression to be written
+to the specified file. Since the tobit function has features not exposed in this 
+extension command, the generated program can be a useful starting point for 
+additional specifications.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
