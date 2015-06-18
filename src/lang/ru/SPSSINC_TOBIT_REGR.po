@@ -1,0 +1,113 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_TOBIT_REGR.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: SPSSINC_TOBIT_REGR.R:89
+#: SPSSINC_TOBIT_REGR.R:94
+msgid "None"
+msgstr ""
+"Нет"
+
+#: SPSSINC_TOBIT_REGR.R:97
+msgid " Lower bound: %s, Upper bound: %s"
+msgstr ""
+" Нижняя граница: %s, Верхняя граница: %s"
+
+#: SPSSINC_TOBIT_REGR.R:101
+msgid "ERROR:"
+msgstr ""
+"Ошибка:"
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Scale: "
+msgstr ""
+"Масштаб: "
+
+#: SPSSINC_TOBIT_REGR.R:111
+msgid "Residual d.f.: "
+msgstr ""
+"Остаточные ст.св.: "
+
+#: SPSSINC_TOBIT_REGR.R:112
+msgid "Log likelihood: "
+msgstr ""
+"Log-правдоподобие: "
+
+#: SPSSINC_TOBIT_REGR.R:112
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "  D.f.: "
+msgstr ""
+"  Ст.св.: "
+
+#: SPSSINC_TOBIT_REGR.R:113
+msgid "Wald statistic: "
+msgstr ""
+"Статистика Вальда: "
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Coefficient"
+msgstr ""
+"Коэффициент"
+
+#: SPSSINC_TOBIT_REGR.R:121
+msgid "Std. Error"
+msgstr ""
+"Стд. ошибка"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "z Value"
+msgstr ""
+"z-значение"
+
+#: SPSSINC_TOBIT_REGR.R:122
+msgid "Sig."
+msgstr ""
+"Значимость"
+
+#: SPSSINC_TOBIT_REGR.R:124
+msgid "Tobit Regression"
+msgstr ""
+"Тобит регрессия"
+
+#: SPSSINC_TOBIT_REGR.R:126
+msgid "Coefficients"
+msgstr ""
+"Коэффициенты"
+
+#: SPSSINC_TOBIT_REGR.R:132
+msgid "Variable or Factor Value"
+msgstr ""
+"Значение переменной или фактора"
+
+#: SPSSINC_TOBIT_REGR.R:133
+msgid "Estimated Coefficient"
+msgstr ""
+"Оцененный коэффициент"
+
+#: SPSSINC_TOBIT_REGR.R:139
+msgid "Failed to create coefficients dataset. Dataset name must not already exist: "
+msgstr ""
+"Не удалось создать набор данных с коэффициентами. Набор данных с таким именем не может уже существовать."
+
+
