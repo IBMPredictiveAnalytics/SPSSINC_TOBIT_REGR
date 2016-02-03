@@ -1,11 +1,13 @@
 # SPSSINC TOBIT REGR
-## Estimate a regression model whose dependent variable has a fi
- This procedure estimates a regression model where the dep
+## Estimate a regression model whose dependent variable has a fixed lower bound, upper bound, or both.
+ This procedure estimates a regression model where the dependent variable has a fixed lower bound, upper bound, or both. It can be thought of as a combination of a probit model with a linear regression model. You can specify the distribution assumed for the dependent variable, and you can save the residuals from the regression as well as the estimated coefficients.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
+
+Note: The SPSSINC TOBIT REGR extension is installed as part of IBM SPSS Statistics-Essentials for R.
 
 ---
 Installation intructions
