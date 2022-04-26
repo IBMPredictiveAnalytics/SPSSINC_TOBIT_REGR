@@ -13,7 +13,7 @@ Description: This procedure estimates a regression model where the dep
  ll as the estimated coefficients. The procedure uses the tobit functi
  on from the R AER package.
 Author: IBM SPSS
-Version: 1.2.7
+Version: 1.2.8
 Product-Version: 18
 Date: 1/2/2014
 Categories: Extension Commands, R, Statistics
